@@ -9,7 +9,7 @@ namespace Uppgift1
 {
     public class RouteConfig
     {
-        public static void RegisterRoutes(RouteCollection routes) // test test
+        public static void RegisterRoutes(RouteCollection routes) 
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
