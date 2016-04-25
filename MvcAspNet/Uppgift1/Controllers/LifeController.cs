@@ -17,8 +17,10 @@ namespace Uppgift1.Controllers
         {
             return View();
         }
-        public ActionResult Live()
+        public ActionResult Live(int? id)
         {
+            if(id != null)
+            ViewBag.Live = id;
             return View();
         }
     }
