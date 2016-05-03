@@ -1,0 +1,25 @@
+﻿@{ var speed = 280; }
+@{
+    ViewBag.Title = "Driver";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Driver</h2>
+<ul>
+    @for (int i = 100; i > 50; i -= 4)
+    {
+        <li>@i</li>
+    }
+</ul>
+<h3>if else</h3>
+@{
+    if (speed > 200)
+    {
+        <p>Detta är en sportbil</p>
+    }
+    else
+    {
+        <p>LGF-Fordon</p>
+    }
+}
+
