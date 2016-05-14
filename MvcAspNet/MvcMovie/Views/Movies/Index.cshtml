@@ -9,6 +9,14 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controllers="Movies" asp-action="Index" method="GET">
+    <p>
+        Genre: @Html.DropDownList("movieGenre", "all")
+        Title: <input type="text" name="SearchString">
+        <input type="submit" value="Filter"/>
+    </p>
+
+</form>
 <table class="table">
     <tr>
         <th>
