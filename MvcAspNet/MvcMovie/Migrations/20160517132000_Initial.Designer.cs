@@ -8,7 +8,7 @@ using MvcMovie.Models;
 namespace MvcMovie.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20160510081612_Initial")]
+    [Migration("20160517132000_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

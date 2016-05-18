@@ -1,5 +1,5 @@
 ﻿{
-  "userSecretsId": "aspnet5-MvcMovie-d33da6ee-c678-4325-afd1-daf66ab2f6d1",
+  "userSecretsId": "aspnet5-MvcMovie-6eaf0b9f-e107-4ba0-ac08-f645e280febe",
   "version": "1.0.0-*",
   "compilationOptions": {
     "emitEntryPoint": true
@@ -18,10 +18,9 @@
     "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
     "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
     "Microsoft.Extensions.CodeGenerators.Mvc": "1.0.0-rc1-final",
-    "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.FileProviderExtensions" : "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-rc1-final",
-    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
