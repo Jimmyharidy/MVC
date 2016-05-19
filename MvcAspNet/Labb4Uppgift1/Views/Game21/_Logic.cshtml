@@ -1,0 +1,18 @@
+﻿@model Labb4Uppgift1.Models.Game21
+
+<h3>@Model.Announcement</h3>
+
+@using (Ajax.BeginForm("_Logic", "Game21", new AjaxOptions {UpdateTargetId = "gameContainer" }))
+{
+    <h1>@Model.Total</h1><br />
+
+    if (Model.Announcement == null)
+    {
+        <button type="submit" value="1" name="Add" class="btn btn-secondary">1</button>
+        <button type="submit" value="2" name="Add" class="btn btn-secondary">2</button>
+    }
+    else
+    {
+        @Ajax.ActionLink("Reset Game", "_Logic", "Game21", new AjaxOptions {UpdateTargetId = "gameContainer"})
+    }
+}
